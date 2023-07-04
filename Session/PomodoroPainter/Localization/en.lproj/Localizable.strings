@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  PomodoroPainter
+
+  Created by emre usul on 15.04.2023.
+  
+*/
+"session" = "Today Sessions";
+"today" = "Today";
+"thisWeek" = "This Week";
+"total" = "Total";
+"statistic" = "Statistic";
+"sessions" = "Sessions";
+"SESSİON" = "Session";
+"TIME" = "Time";
+"minute" = "Min";
+"hour" = "Hr";
+"title" = "You Did It";
+"subtitle" = "Let's take a quik break";
+"quit" = "Do you really want to quit this session? You lost your progress";
+"resume" = "Resume";
+"yes" = "Yes";
+"quitSession" = "Quit Session";

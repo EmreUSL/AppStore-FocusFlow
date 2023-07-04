@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		645CFEDA29E444BB00670D21 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645CFED929E444BB00670D21 /* PomodoroModel.swift */; };
+		645CFEDC29E4463600670D21 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645CFEDB29E4463600670D21 /* Date+Ext.swift */; };
+		645CFEE029E4598E00670D21 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645CFEDF29E4598E00670D21 /* TimeManager.swift */; };
+		6489E2F729C24B5C0098D583 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489E2F629C24B5C0098D583 /* MainButton.swift */; };
+		64968E7729BCA9BE00F273C5 /* PomodoroPainterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968E7629BCA9BE00F273C5 /* PomodoroPainterApp.swift */; };
+		64968E7B29BCA9BE00F273C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64968E7A29BCA9BE00F273C5 /* Assets.xcassets */; };
+		64968E7E29BCA9BE00F273C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64968E7D29BCA9BE00F273C5 /* Preview Assets.xcassets */; };
+		64968E8829BCA9BF00F273C5 /* PomodoroPainterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968E8729BCA9BF00F273C5 /* PomodoroPainterTests.swift */; };
+		64968E9229BCA9BF00F273C5 /* PomodoroPainterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968E9129BCA9BF00F273C5 /* PomodoroPainterUITests.swift */; };
+		64968E9429BCA9BF00F273C5 /* PomodoroPainterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968E9329BCA9BF00F273C5 /* PomodoroPainterUITestsLaunchTests.swift */; };
+		64968EA429BCA9F300F273C5 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968EA329BCA9F300F273C5 /* TimeView.swift */; };
+		64968EA629BCAA1700F273C5 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968EA529BCAA1700F273C5 /* StatisticView.swift */; };
+		64968EA929BCABC000F273C5 /* MainTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968EA829BCABC000F273C5 /* MainTitleView.swift */; };
+		64968EAB29BCB28B00F273C5 /* MainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968EAA29BCB28B00F273C5 /* MainImageView.swift */; };
+		64968EAD29BCB5BE00F273C5 /* MainTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64968EAC29BCB5BE00F273C5 /* MainTimer.swift */; };
+		64C6A8A129C0F20300532D52 /* TodayStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6A8A029C0F20300532D52 /* TodayStatistic.swift */; };
+		64C6A8A329C0F24700532D52 /* WeekStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6A8A229C0F24700532D52 /* WeekStatistic.swift */; };
+		64C6A8A529C0F25000532D52 /* TotalStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6A8A429C0F25000532D52 /* TotalStatistic.swift */; };
+		64C6A8A729C0F52700532D52 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6A8A629C0F52700532D52 /* MainView.swift */; };
+		64F1324D29EB4612001A8834 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64F1324F29EB4612001A8834 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64968E8429BCA9BF00F273C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64968E6B29BCA9BD00F273C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64968E7229BCA9BD00F273C5;
+			remoteInfo = PomodoroPainter;
+		};
+		64968E8E29BCA9BF00F273C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64968E6B29BCA9BD00F273C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64968E7229BCA9BD00F273C5;
+			remoteInfo = PomodoroPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F3DC00229F09C30009B4E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		645CFED929E444BB00670D21 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		645CFEDB29E4463600670D21 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		645CFEDF29E4598E00670D21 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		6489E2F629C24B5C0098D583 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		64968E7329BCA9BE00F273C5 /* PomodoroPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64968E7629BCA9BE00F273C5 /* PomodoroPainterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroPainterApp.swift; sourceTree = "<group>"; };
+		64968E7A29BCA9BE00F273C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64968E7D29BCA9BE00F273C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64968E8329BCA9BF00F273C5 /* PomodoroPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64968E8729BCA9BF00F273C5 /* PomodoroPainterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroPainterTests.swift; sourceTree = "<group>"; };
+		64968E8D29BCA9BF00F273C5 /* PomodoroPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64968E9129BCA9BF00F273C5 /* PomodoroPainterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroPainterUITests.swift; sourceTree = "<group>"; };
+		64968E9329BCA9BF00F273C5 /* PomodoroPainterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroPainterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64968EA329BCA9F300F273C5 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		64968EA529BCAA1700F273C5 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		64968EA829BCABC000F273C5 /* MainTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleView.swift; sourceTree = "<group>"; };
+		64968EAA29BCB28B00F273C5 /* MainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageView.swift; sourceTree = "<group>"; };
+		64968EAC29BCB5BE00F273C5 /* MainTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTimer.swift; sourceTree = "<group>"; };
+		64C6A8A029C0F20300532D52 /* TodayStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayStatistic.swift; sourceTree = "<group>"; };
+		64C6A8A229C0F24700532D52 /* WeekStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStatistic.swift; sourceTree = "<group>"; };
+		64C6A8A429C0F25000532D52 /* TotalStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalStatistic.swift; sourceTree = "<group>"; };
+		64C6A8A629C0F52700532D52 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		64F1324E29EB4612001A8834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		64F1325029EB462E001A8834 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64968E7029BCA9BD00F273C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64968E8029BCA9BF00F273C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64968E8A29BCA9BF00F273C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		645CFED829E4449B00670D21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				645CFED929E444BB00670D21 /* PomodoroModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		645CFEDD29E4463900670D21 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				645CFEDB29E4463600670D21 /* Date+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		645CFEDE29E4597F00670D21 /* TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				645CFEDF29E4598E00670D21 /* TimeManager.swift */,
+			);
+			path = TimerManager;
+			sourceTree = "<group>";
+		};
+		64968E6A29BCA9BD00F273C5 = {
+			isa = PBXGroup;
+			children = (
+				64968E7529BCA9BE00F273C5 /* PomodoroPainter */,
+				64968E8629BCA9BF00F273C5 /* PomodoroPainterTests */,
+				64968E9029BCA9BF00F273C5 /* PomodoroPainterUITests */,
+				64968E7429BCA9BE00F273C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64968E7429BCA9BE00F273C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64968E7329BCA9BE00F273C5 /* PomodoroPainter.app */,
+				64968E8329BCA9BF00F273C5 /* PomodoroPainterTests.xctest */,
+				64968E8D29BCA9BF00F273C5 /* PomodoroPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64968E7529BCA9BE00F273C5 /* PomodoroPainter */ = {
+			isa = PBXGroup;
+			children = (
+				4F3DC00229F09C30009B4E45 /* Info.plist */,
+				645CFEDE29E4597F00670D21 /* TimerManager */,
+				645CFEDD29E4463900670D21 /* Extension */,
+				64968EA729BCABA300F273C5 /* Components */,
+				64968EA029BCA9D300F273C5 /* Views */,
+				645CFED829E4449B00670D21 /* ViewModel */,
+				64F1324A29EB41E9001A8834 /* Localization */,
+				64968E7629BCA9BE00F273C5 /* PomodoroPainterApp.swift */,
+				64968E7A29BCA9BE00F273C5 /* Assets.xcassets */,
+				64968E7C29BCA9BE00F273C5 /* Preview Content */,
+			);
+			path = PomodoroPainter;
+			sourceTree = "<group>";
+		};
+		64968E7C29BCA9BE00F273C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64968E7D29BCA9BE00F273C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64968E8629BCA9BF00F273C5 /* PomodoroPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				64968E8729BCA9BF00F273C5 /* PomodoroPainterTests.swift */,
+			);
+			path = PomodoroPainterTests;
+			sourceTree = "<group>";
+		};
+		64968E9029BCA9BF00F273C5 /* PomodoroPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64968E9129BCA9BF00F273C5 /* PomodoroPainterUITests.swift */,
+				64968E9329BCA9BF00F273C5 /* PomodoroPainterUITestsLaunchTests.swift */,
+			);
+			path = PomodoroPainterUITests;
+			sourceTree = "<group>";
+		};
+		64968EA029BCA9D300F273C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64968EA329BCA9F300F273C5 /* TimeView.swift */,
+				64968EA529BCAA1700F273C5 /* StatisticView.swift */,
+				64C6A8A629C0F52700532D52 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64968EA729BCABA300F273C5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				64C6A89E29C0F08600532D52 /* Main */,
+				64C6A89F29C0F08C00532D52 /* Statistic */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		64C6A89E29C0F08600532D52 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				64968EA829BCABC000F273C5 /* MainTitleView.swift */,
+				64968EAA29BCB28B00F273C5 /* MainImageView.swift */,
+				64968EAC29BCB5BE00F273C5 /* MainTimer.swift */,
+				6489E2F629C24B5C0098D583 /* MainButton.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		64C6A89F29C0F08C00532D52 /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				64C6A8A029C0F20300532D52 /* TodayStatistic.swift */,
+				64C6A8A229C0F24700532D52 /* WeekStatistic.swift */,
+				64C6A8A429C0F25000532D52 /* TotalStatistic.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		64F1324A29EB41E9001A8834 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				64F1324F29EB4612001A8834 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64968E7229BCA9BD00F273C5 /* PomodoroPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64968E9729BCA9BF00F273C5 /* Build configuration list for PBXNativeTarget "PomodoroPainter" */;
+			buildPhases = (
+				64968E6F29BCA9BD00F273C5 /* Sources */,
+				64968E7029BCA9BD00F273C5 /* Frameworks */,
+				64968E7129BCA9BD00F273C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomodoroPainter;
+			productName = PomodoroPainter;
+			productReference = 64968E7329BCA9BE00F273C5 /* PomodoroPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64968E8229BCA9BF00F273C5 /* PomodoroPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64968E9A29BCA9BF00F273C5 /* Build configuration list for PBXNativeTarget "PomodoroPainterTests" */;
+			buildPhases = (
+				64968E7F29BCA9BF00F273C5 /* Sources */,
+				64968E8029BCA9BF00F273C5 /* Frameworks */,
+				64968E8129BCA9BF00F273C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64968E8529BCA9BF00F273C5 /* PBXTargetDependency */,
+			);
+			name = PomodoroPainterTests;
+			productName = PomodoroPainterTests;
+			productReference = 64968E8329BCA9BF00F273C5 /* PomodoroPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64968E8C29BCA9BF00F273C5 /* PomodoroPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64968E9D29BCA9BF00F273C5 /* Build configuration list for PBXNativeTarget "PomodoroPainterUITests" */;
+			buildPhases = (
+				64968E8929BCA9BF00F273C5 /* Sources */,
+				64968E8A29BCA9BF00F273C5 /* Frameworks */,
+				64968E8B29BCA9BF00F273C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64968E8F29BCA9BF00F273C5 /* PBXTargetDependency */,
+			);
+			name = PomodoroPainterUITests;
+			productName = PomodoroPainterUITests;
+			productReference = 64968E8D29BCA9BF00F273C5 /* PomodoroPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64968E6B29BCA9BD00F273C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					64968E7229BCA9BD00F273C5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					64968E8229BCA9BF00F273C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 64968E7229BCA9BD00F273C5;
+					};
+					64968E8C29BCA9BF00F273C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 64968E7229BCA9BD00F273C5;
+					};
+				};
+			};
+			buildConfigurationList = 64968E6E29BCA9BD00F273C5 /* Build configuration list for PBXProject "PomodoroPainter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 64968E6A29BCA9BD00F273C5;
+			productRefGroup = 64968E7429BCA9BE00F273C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64968E7229BCA9BD00F273C5 /* PomodoroPainter */,
+				64968E8229BCA9BF00F273C5 /* PomodoroPainterTests */,
+				64968E8C29BCA9BF00F273C5 /* PomodoroPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64968E7129BCA9BD00F273C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64968E7E29BCA9BE00F273C5 /* Preview Assets.xcassets in Resources */,
+				64F1324D29EB4612001A8834 /* Localizable.strings in Resources */,
+				64968E7B29BCA9BE00F273C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64968E8129BCA9BF00F273C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64968E8B29BCA9BF00F273C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64968E6F29BCA9BD00F273C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C6A8A129C0F20300532D52 /* TodayStatistic.swift in Sources */,
+				64968EAD29BCB5BE00F273C5 /* MainTimer.swift in Sources */,
+				645CFEE029E4598E00670D21 /* TimeManager.swift in Sources */,
+				645CFEDC29E4463600670D21 /* Date+Ext.swift in Sources */,
+				64C6A8A329C0F24700532D52 /* WeekStatistic.swift in Sources */,
+				64C6A8A729C0F52700532D52 /* MainView.swift in Sources */,
+				64968EAB29BCB28B00F273C5 /* MainImageView.swift in Sources */,
+				64968EA929BCABC000F273C5 /* MainTitleView.swift in Sources */,
+				645CFEDA29E444BB00670D21 /* PomodoroModel.swift in Sources */,
+				64968E7729BCA9BE00F273C5 /* PomodoroPainterApp.swift in Sources */,
+				6489E2F729C24B5C0098D583 /* MainButton.swift in Sources */,
+				64968EA629BCAA1700F273C5 /* StatisticView.swift in Sources */,
+				64C6A8A529C0F25000532D52 /* TotalStatistic.swift in Sources */,
+				64968EA429BCA9F300F273C5 /* TimeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64968E7F29BCA9BF00F273C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64968E8829BCA9BF00F273C5 /* PomodoroPainterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64968E8929BCA9BF00F273C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64968E9229BCA9BF00F273C5 /* PomodoroPainterUITests.swift in Sources */,
+				64968E9429BCA9BF00F273C5 /* PomodoroPainterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64968E8529BCA9BF00F273C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64968E7229BCA9BD00F273C5 /* PomodoroPainter */;
+			targetProxy = 64968E8429BCA9BF00F273C5 /* PBXContainerItemProxy */;
+		};
+		64968E8F29BCA9BF00F273C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64968E7229BCA9BD00F273C5 /* PomodoroPainter */;
+			targetProxy = 64968E8E29BCA9BF00F273C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64F1324F29EB4612001A8834 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F1324E29EB4612001A8834 /* en */,
+				64F1325029EB462E001A8834 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64968E9529BCA9BF00F273C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64968E9629BCA9BF00F273C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64968E9829BCA9BF00F273C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PomodoroPainter/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUD457WP4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PomodoroPainter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusFlow;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreusul.PomodoroPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		64968E9929BCA9BF00F273C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PomodoroPainter/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUD457WP4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PomodoroPainter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusFlow;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreusul.PomodoroPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		64968E9B29BCA9BF00F273C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUD457WP4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreusul.PomodoroPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomodoroPainter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PomodoroPainter";
+			};
+			name = Debug;
+		};
+		64968E9C29BCA9BF00F273C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUD457WP4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreusul.PomodoroPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomodoroPainter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PomodoroPainter";
+			};
+			name = Release;
+		};
+		64968E9E29BCA9BF00F273C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUD457WP4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreusul.PomodoroPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomodoroPainter;
+			};
+			name = Debug;
+		};
+		64968E9F29BCA9BF00F273C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUD457WP4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreusul.PomodoroPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomodoroPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64968E6E29BCA9BD00F273C5 /* Build configuration list for PBXProject "PomodoroPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64968E9529BCA9BF00F273C5 /* Debug */,
+				64968E9629BCA9BF00F273C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64968E9729BCA9BF00F273C5 /* Build configuration list for PBXNativeTarget "PomodoroPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64968E9829BCA9BF00F273C5 /* Debug */,
+				64968E9929BCA9BF00F273C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64968E9A29BCA9BF00F273C5 /* Build configuration list for PBXNativeTarget "PomodoroPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64968E9B29BCA9BF00F273C5 /* Debug */,
+				64968E9C29BCA9BF00F273C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64968E9D29BCA9BF00F273C5 /* Build configuration list for PBXNativeTarget "PomodoroPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64968E9E29BCA9BF00F273C5 /* Debug */,
+				64968E9F29BCA9BF00F273C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64968E6B29BCA9BD00F273C5 /* Project object */;
+}

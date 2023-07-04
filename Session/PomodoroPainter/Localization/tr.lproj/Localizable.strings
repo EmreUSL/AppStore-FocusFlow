@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  PomodoroPainter
+
+  Created by emre usul on 15.04.2023.
+  
+*/
+
+"session" = "   Bugün Toplam   ";
+"today" = "Bugün";
+"thisWeek" = "Bu Hafta";
+"total" = "Toplam";
+"statistic" = "İstatistik";
+"sessions" = "Görevler";
+"SESSİON" = "Görev";
+"TIME" = "Zaman";
+"minute" = "Dk";
+"hour" = "Sa";
+"title" = "Tebrikler, Başardın";
+"subtitle" = "Hadi Kısa Bir Mola Verelim";
+"quit" = "Görevi iptal etmek istediğinden emin misin? Tüm ilerlemeni kaybedeceksin.";
+"resume" = "Devam Et";
+"yes" = "Evet";
+"quitSession" = "Görevi Sonlandır";
